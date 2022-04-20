@@ -38,6 +38,7 @@ public class Prueba {
                 num = Double.parseDouble(entrada);//lo convierte
                 
             } catch (Exception e) {//si salta cualquier error err pasa a ser verdadero y se repite el bucle
+                
                 err = true;
                 System.out.println("No se ha podido leer el número.\nPruebe otra vez.");
             }
